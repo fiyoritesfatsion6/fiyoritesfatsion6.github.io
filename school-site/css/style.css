@@ -79,13 +79,13 @@ header, footer {
 
 /* Imported Typfaces */
 @font-face {
-    font-family:coolfont ;
+    font-family:josefinslab ;
     src: url(../fonts/josefinslab-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family:mycoolfont ;
+    font-family:montserrat ;
     src: url(../fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -96,11 +96,11 @@ header, footer {
 /* Typography Styles */
 
 html{
-    font-family: mycoolfont;
+    font-family: montserrat;
 }
 h1{
     letter-spacing: 0.125rem;
-    font-family: coolfont;
+    font-family: josefinslab;
     font-size:3.75rem;
     margin:1.125;
     text-align: center;

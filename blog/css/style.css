@@ -1,0 +1,193 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+span {
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#charcoal {
+    background-color: brown;
+    padding: 5px;
+    font-family: tahoma;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: hsla(0, 33%, 97%, 0.945);
+    font-size: 30px;
+}
+
+.nav {
+    border: 2px solid rgb(1, 0, 14);
+}
+.blog{
+    transform: rotate(4deg);
+    color: black;
+    text-transform: uppercase;
+}
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(5, 5, 77);
+    font-stretch: expanded;
+}
+
+.container {
+    display: flex;
+    font-size: 15px;
+    width: auto;
+}
+
+.left {
+    width: 70%;
+    padding-left: 30px;
+    /* display: flex; */
+}
+
+.left p,
+b {
+    margin: 10px 30px;
+    font-family: cursive;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left img {
+    width: 280px;
+    height: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+    display: flex;
+    padding: 0px;
+
+}
+
+.bottom p {
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+/* copy from here*/
+}
+.figure1{
+    position:relative;
+    left: 30px;
+    float: left;
+}
+
+.figure2{
+    position:relative;
+    left: 30px;
+    float: left;
+}
+
+.figure3{
+    position:relative;
+    left: 30px;
+    float: left;
+}
+
+.figcaption1{
+    background-color: grey;
+    position: relative;
+    left: 30px;
+    width: 220px;
+    padding: 0px;
+
+}
+
+.figcaption2{
+    background-color: grey;
+    position: relative;
+    left: 30px;
+    width: 220px;
+    padding: 0px;
+
+}
+
+.figcaption3{
+    background-color: grey;
+    position: relative;
+    left: 30px;
+    width: 220px;
+    padding: 0px;
+}
+
+/* to here*/
+
+.images img {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(70, 70, 117);
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right {
+    width: 30%;
+    border-left: 2px solid black;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 120px;
+    height: 500px;
+}
+
+.first p {
+    padding: 10px;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(240, 233, 233);
+}
